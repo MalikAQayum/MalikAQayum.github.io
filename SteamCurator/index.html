@@ -25,21 +25,46 @@
 				</h2>
 				<p>
 					We have a few things happening on the Live Stats page.
-					<br>1. Page reloads all the data ever nth second.
-					<br>2. 
+					<br><br>1. latest received Curator package, appears when the scripts see we have received a new appid, otherwise it stays hidden.
+					<br>2. Page reloads all the data ever nth second. the progressbar shows how long until next reload.
+					<br>3. Then we have a bit of data, such as;
+					<br><p>-Total Copies (how many copies we have available in total from all the pending/excluded appids we have available.)
+					<br>-Total Appids (how many unique pending/excluded appids we have available to claim.)
+					<br>-Pending (how many pending appids we have available.)
+					<br>-Excluded (how many excluded appids we have available.)
+					<br>-Accepted (I will get into this later, as it is a bit different than the other data available.)
+					</p><br>4. A visual bar chart to show the above data.
+					<br>5. personal stat, that shows how many curator packages you have claimed in your "lifetime" throughtout all the Curators you have been a part of.
+					
 				</p>
 			</div>
 		</div>
 		<br>
 		<div class="row">
+			<div class="col-md-6">
+				<h2>
+					Steam Store app page
+				</h2>
+				<p>
+					We are checking our main curator that we have defined in the script for now, whether or not we have that package available.
+					<br>
+					<br>1. Coming Soon apps will have a "Add through Curator" button.
+					<br>2. Released apps will have a "Add through Curator" button.
+					<br> (For now the button just directs us to the pending page of the curator, this could be changed so it just claims it instead, if people want that.)
+				</p>			</div>
+			<div class="col-md-6">
+				<img src="./images/c_addthroughcurator.png" alt="add through curator" >
+				<br><br>
+				<img src="./images/r_addthroughcurator.png" alt="add through curator" >
+			</div>
+		</div>
+		<br>
+		<div class="row">
 			<div class="col-md-4">
-					Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
 			</div>
 			<div class="col-md-4">
-				<img src="./images/r_addthroughcurator.png" alt="add through curator" height="100%" width="100%">
 			</div>
 			<div class="col-md-4">
-				<img src="./images/c_addthroughcurator.png" alt="add through curator" height="100%" width="100%">
 			</div>
 		</div>
 	</div>
